@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyect Alchemilla | Registrar su cuenta</title>
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link type="image/png" sizes="96x96" rel="icon" href="/img/favicon.png">
+</head>
+<body>
+  <header>
+    <a href="../index.html">
+      <img src="/img/logo.png" alt="logo" id="logoI">
+  </a>
+  <button class="hamburger" id="hamburger-btn">&#9776;</button>
+  <nav id="navbar">
+      <button id="theme-toggle" class="theme-toggle">Día</button>
+  <button id="toggle-mode-btn">Modo daltonismo</button>
+      <a href="../index.html">Inicio</a>
+      <a href="about.html" id="acercade-link">Acerca</a>
+      <a href="contacts.html" id="contactos-link">Solicitar</a>
+      <a href="locate.html" id="ubicacion-link">Sede</a>
+      <a href="history.html" id="historial-link" style="display:none;">Donaciones</a>
+      <a href="admin.html" id="productos-link" style="display:none;">Administrador</a>
+      <a href="login.html" id="login-link">Iniciar Sesión</a>
+      <a href="register.html" id="register-link">Registrarse</a>
+      <span id="welcome-message" style="display:none;"></span>
+      <a href="#" id="logout-link" style="display:none;">Cerrar Sesión</a>
+      <button id="cart-btn">Donaciones (0)</button>
+  </nav>
+  </header>
+  <main>
+    <h1>Registre su usuario</h1>
+    <form id="register-form">
+      <input type="text" id="register-username" placeholder="Usuario" required>
+      <input type="password" id="register-password" placeholder="Contraseña" required>
+      <button type="submit">Registrarse</button>
+    </form>
+  </main>
+  
+  <footer>
+    <div class="footerdiv">
+      <div class="footerdiv2">
+       <h3 class="headline footer">Sobre nuestro proyecto</h3>
+       <ul class="footer-links">
+        <li><a href="#">Nuestra historia</a></li>
+        <li><a href="#">Historias de vidas transformadas</a></li>
+        <li><a href="#">Cómo colaborar</a></li>
+        <li><a href="#">Política de Privacidad</a></li>
+        <li><a href="#">Términos y Condiciones</a></li>
+       </ul>
+      </div>
+      <div class="footerdiv2">
+       <h3 class="headline footer">Haz tu solicitud hoy</h3>
+       <ul>
+        <li><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:2230-9382" class="ng-binding">2230-9382</a></li>
+        <li><i class="fa fa-envelope" aria-hidden="true"></i><a class="ng-binding" href="mailto:proyectalchemillaoficial@outlook.com">proyectalchemillaoficial@outlook.com</a></li>
+        <li><a href="/html/contacts.html"><i class="fa fa-comment" aria-hidden="true"></i>Háganos una solicitud</a></li>
+        <li><a href="/html/faq.html"><i class="fa fa-question-circle" aria-hidden="true"></i> Preguntas Frecuentes</a></li>
+        <li><a href="/html/locate.html"><i class="fas fa-hospital" aria-hidden="true"></i>Sede</a></li>
+        <li><a href="/html/about.html"><i class="fas fa-building" aria-hidden="true"></i>¿Qué es el proyecto Alchemilla?</a></li>
+        </ul>
+         </div>
+     </div>
+     <span>©Alchemilla Proyect Ltd. | Todos los derechos reservados</span>
+  </footer>
+  
+  <script src="/js/register.js"></script>
+  </body>
+  </html>
+  
