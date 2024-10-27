@@ -26,7 +26,7 @@ function mostrarComprasRealizadas() {
       productosHTML += '</ul>';
   
       compraDiv.innerHTML = `
-      <h3>Compra realizada por ${compra.usuario} el ${compra.fecha}</h3>
+      <h3>Donación hecha por ${compra.usuario} el ${compra.fecha}</h3>
       ${productosHTML}
       <p>Total: $${compra.total}</p>
       `;
