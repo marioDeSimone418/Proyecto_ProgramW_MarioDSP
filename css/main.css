@@ -191,6 +191,11 @@ footer a {
         text-align: center;
     }
 
+    .logo {
+        width: 20vw;
+    }
+}
+
 nav {
     display: none; 
     flex-direction: column; 
