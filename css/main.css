@@ -397,3 +397,17 @@ body.colorblind-mode header, body.colorblind-mode footer {
     background-color: #000000;
     color: #ffffff;
 }
+
+body.colorblind-mode .flashy-text {
+    background-color: #005aee;
+}
+
+.flashy-text {
+    background-color: #d22a17;
+    width: 90vw;
+    color: #ffffff;
+    position: relative;
+    padding: 0.7vw;
+    margin: auto;
+    margin-bottom: 2vh;
+}
